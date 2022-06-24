@@ -1,0 +1,35 @@
+@media(min-width: 1400px) {
+    nav, .servicios, .footer-content, .presentacion{
+        width: 60%;
+        margin: auto;
+    }
+
+}
+
+@media(max-width: 800px){
+    .presentacion, .tipo-servicios{
+        flex-direction:column;
+    }
+    .presentacion div{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .nav{
+       
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+    }
+}
+
+@media(max-width:420px){
+
+    .presentacion div{
+        text-align: center;
+        margin-bottom: 30px;
+        h1, p{
+            padding: 0;
+        }
+    }
+
+}

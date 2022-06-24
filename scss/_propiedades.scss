@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Poppins:wght@400;700&family=Tapestry&display=swap");
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.body1{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    background: url(../IMG/hd-wallpaper-g62bcb25b3_1920.jpg);
+  
+}
+
+.body2{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    background: url(../IMG/la-playa-al-atardecer_3840x2548_xtrafondos.com.jpg);
+  
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(134, 132, 132);
+}
+
+img{
+    width: 80%;
+  height: auto;
+}
+
+nav, .servicios, .presentacion, .footer-content{
+    width: 80%;
+    margin:auto;
+}
+
+.titulo-servicios, .presentacion{
+    margin-bottom: 10%;
+}
+
+@mixin caja-flex($principal,$cruzado,$wrap){
+    display: flex;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-wrap: $wrap;
+}
+
+
+
